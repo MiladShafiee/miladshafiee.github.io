@@ -11,6 +11,15 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>My Paper Name</title>
+      <link>https://miladshafiee.github.io/publication/my-paper-name/</link>
+      <pubDate>Thu, 07 Sep 2017 16:23:55 +0430</pubDate>
+      
+      <guid>https://miladshafiee.github.io/publication/my-paper-name/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Push recovery of a humanoid robot based on model predictive control and capture point</title>
       <link>https://miladshafiee.github.io/publication/icrom2016/</link>
       <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
@@ -30,6 +39,16 @@
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://miladshafiee.github.io/publication/person-re-identification/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>https://miladshafiee.github.io/publication/icra2017/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/publication/icra2017/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
