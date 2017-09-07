@@ -35,6 +35,30 @@
     </item>
     
     <item>
+      <title>Robust bipedal locomotion control based on model predictive control and divergent component of motion</title>
+      <link>https://miladshafiee.github.io/publication/icra2017/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/publication/icra2017/</guid>
+      <description>&lt;p&gt;#
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2Pnj5hJVeJM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Mini-boat</title>
+      <link>https://miladshafiee.github.io/project/deep-learning-copy/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/deep-learning-copy/</guid>
+      <description>&lt;p&gt;Design and implementation of an unmanned autonomous boat in 2nd ASV (Autonomous Surface Vehicle) competition (Sharif University of Technology). It started with the conceptual design of a high speed autonomous unmanned boat. After 9 month of massive teamwork for conceptual and detail design, we reached a final design for implementation. The entire structure of the boat was built according to the initial design using lightweight fiberglass during a 6 month period. Integrating a GPS with a Compass autonomous system of the boat accomplished. We ranked first in all of items of the competition including speed, maneuver, autonomous circle and autonomous spiral items&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deep Learning</title>
       <link>https://miladshafiee.github.io/project/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
@@ -857,16 +881,6 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;h2 id=&#34;a-practical-example&#34;&gt;A practical example&lt;/h2&gt;
 
 &lt;p&gt;Alexandre Normand migrated his website from Jekyll to Hugo in less than a day. You can see all his changes by looking at this GitHub &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34; target=&#34;_blank&#34;&gt;diff&lt;/a&gt;. However, bear in mind that this example is &lt;strong&gt;not specific to the Academic theme nor does it use the latest version of Hugo&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://miladshafiee.github.io/publication/icra2017/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://miladshafiee.github.io/publication/icra2017/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
