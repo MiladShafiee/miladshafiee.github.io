@@ -7,15 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/humanoids/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>SURENA 3 Humanoid Robot</title>
-      <link>https://miladshafiee.github.io/project/surena-3/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Push recovery of a Humanoid Robot</title>
+      <link>https://miladshafiee.github.io/project/push/</link>
+      <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://miladshafiee.github.io/project/surena-3/</guid>
+      <guid>https://miladshafiee.github.io/project/push/</guid>
       <description>&lt;p&gt;SURENA Mini is a child-size humanoid robot designed and fabricated at the Center of Advanced Systems and Technologies (CAST), University of Tehran. The robot is the latest version of SURENA humanoids and is mainly designed to be used as an educational platform in universities, high schools, and robotic laboratories. The robot is provided with various social capabilities to be able to interact with the user.
 Reliability, robustness and user-friendly design are among the most important goals of the project. The robot was unveiled at the Laboratory Equipment and Chemicals Exhibition made in Iran.&lt;/p&gt;
 </description>
@@ -24,9 +24,20 @@ Reliability, robustness and user-friendly design are among the most important go
     <item>
       <title>SURENA Mini Humanoid Robot</title>
       <link>https://miladshafiee.github.io/project/surenamini/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://miladshafiee.github.io/project/surenamini/</guid>
+      <description>&lt;p&gt;SURENA Mini is a child-size humanoid robot designed and fabricated at the Center of Advanced Systems and Technologies (CAST), University of Tehran. The robot is the latest version of SURENA humanoids and is mainly designed to be used as an educational platform in universities, high schools, and robotic laboratories. The robot is provided with various social capabilities to be able to interact with the user.
+Reliability, robustness and user-friendly design are among the most important goals of the project. The robot was unveiled at the Laboratory Equipment and Chemicals Exhibition made in Iran.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SURENA 3 Humanoid Robot</title>
+      <link>https://miladshafiee.github.io/project/surena-3/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/surena-3/</guid>
       <description>&lt;p&gt;SURENA Mini is a child-size humanoid robot designed and fabricated at the Center of Advanced Systems and Technologies (CAST), University of Tehran. The robot is the latest version of SURENA humanoids and is mainly designed to be used as an educational platform in universities, high schools, and robotic laboratories. The robot is provided with various social capabilities to be able to interact with the user.
 Reliability, robustness and user-friendly design are among the most important goals of the project. The robot was unveiled at the Laboratory Equipment and Chemicals Exhibition made in Iran.&lt;/p&gt;
 </description>
