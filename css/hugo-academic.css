@@ -85,7 +85,7 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 0rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -109,7 +109,7 @@ a:focus {
 img,
 video {
   height: auto;
-  max-width: 50%;
+  max-width: 100%;
   display: block;
 }
 
@@ -211,7 +211,7 @@ blockquote p:last-child {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  padding: 110px 0 110px 0;
+  padding: 50px 0 30px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
@@ -390,36 +390,30 @@ article {
 
 .article-container {
   max-width: 760px;
-  padding: 1rem 20px 0 20px;
+  padding: 0rem 20px 0 20px;
   margin: 0 auto 0 auto;
 }
 
 .article-header {
   position: relative;
   clear: both;
-  width: 100%;
 }
 
 .article-banner {
-  width: 50%;
-  max-width: 50%;
+  width: 100%;
   height: auto;
-  margin-left: 300px;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .article-header-caption {
   position: absolute;
-  bottom: 0px;
-  left: 300px;
-  max-width: 50%;
-  margin: auto auto 0 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
   font-size: .7em;
   background: #000;
-  text-align: justify;
+  text-align: right;
   z-index: 5;
   opacity: 0.65;
   border-radius: 5px 0 0 0;
@@ -436,7 +430,7 @@ article {
 }
 
 .article-title {
-  font-size: 1.75rem;
+  font-size: 1.4rem;
 }
 
 .article-title a {
@@ -461,7 +455,7 @@ article {
 }
 
 .article-list-item {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .article-list-item:last-child {
@@ -513,8 +507,8 @@ article {
   padding-top: 6px;
 }
 
-.pub-banner {
-  max-width: 50%;
+.publication-banner {
+  max-width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -524,37 +518,72 @@ article {
   margin-bottom: 5px;
 }
 
+.article-container .pub-abstract {
+  font-size: 0.95rem;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.article-container .pub-publication {
+  color: #090;
+}
+
+.article-container .pub-links {
+  color: #090;
+}
+
 .pub .pub-authors {
+  margin-top: 10px;
+  font-size: 1.2rem;
   font-style: italic;
   line-height: 30px; /* Match share bar line height. */
+  color: #3170A5;
 }
 
 .pub .pub-row-heading {
   font-weight: bold;
 }
 
+.article-container .pub-row-heading {
+  font-size: 0.9rem;
+}
+
 .pub-list-item {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 .pub-list-item .pub-abstract {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  text-align: justify;
 }
 
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: #3170A5;
+}
+
+.pub-authors {
+  line-height: normal;
+  font-style: normal;
+  font-size: 0.95rem;
+  color: #3170A5;
+}
+
+.pub-publication {
+  color: #090;
+  font-size: 0.85rem;
 }
 
 .pub-list-item .pub-publication {
   color: #090;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 .pub-list-item .pub-links {
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #container-publications {
@@ -743,7 +772,7 @@ article {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
+  margin: 1rem 0 0;
   padding: 2rem 0;
   width: 100%;
 }
@@ -786,11 +815,11 @@ footer a#back_to_top i {
 }
 
 .btn-toolbar .btn:first-child {
-  border-radius: 6px 0 0 6px;
+  border-radius: 3px 0 0 3px;
 }
 
 .btn-toolbar .btn:last-child {
-  border-radius: 0 6px 6px 0;
+  border-radius: 0 3px 3px 0;
 }
 
 .btn-toolbar .btn.btn-primary:hover,
@@ -828,6 +857,10 @@ footer a#back_to_top i {
 
 .btn-warning.btn-outline {
   color: #f0ad4e;
+}
+
+.btn-primary.btn-outline.btn-publication {
+  line-height: 10px;
 }
 
 .btn-danger.btn-outline {
