@@ -34,6 +34,19 @@
   
 
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-117863046-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
 
   <link rel="alternate" href="https://miladshafiee.github.io/index.xml" type="application/rss+xml" title="Milad Shafiee">
   <link rel="feed" href="https://miladshafiee.github.io/index.xml" type="application/rss+xml" title="Milad Shafiee">
@@ -83,12 +96,18 @@
 
         
         
-    <li class="nav-item">
-          <a href="/#publications" data-target="#publications">
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
             
             <span>Publications</span>
           </a>
         </li>
+
+        
+        
 
         
 
@@ -99,10 +118,6 @@
           </a>
         </li>
 
-        
-        
-
-        
         
         
 
@@ -118,14 +133,14 @@
   
 
 
-  <div class="container pub-title" align="center">
+  <div class="container pub-title">
     <h1 itemprop="name">Push recovery of a humanoid robot based on model predictive control and capture point</h1>
-    <div class="pub-authors" itemprop="author" style="max-width: 80%">
+    <span class="pub-authors" itemprop="author">
       
       Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Majid Khadiv
       
-    </div>
- <div class="share" align="center" style="margin-top:10px">
+    </span>
+    <span class="pull-right">
       
 <div class="share-box" aria-hidden="true">
   <ul class="share">
@@ -167,7 +182,7 @@
 </div>
 
 
-   </div>
+    </span>
   </div>
 
 </div>
@@ -176,7 +191,7 @@
   
 
   <h3>Abstract</h3>
-  <div class="pub-abstract" itemprop="text" align="justify">The three bio-inspired strategies that have been used for balance recovery of biped robots are the ankle, hip and stepping Strategies. However, there are several cases for a biped robot where stepping is not possible, e. g. when the available contact surfaces are limited. In this situation, the balance recovery by modulating the angular momentum of the upper body (Hip-strategy) or the Zero Moment Point (ZMP) (Ankle strategy) is essential. In this paper, a single Model Predictive Control (MPC) scheme is employed for controlling the Capture Point (CP) to a desired position by modulating both the ZMP and the Centroidal Moment Pivot (CMP). The goal of the proposed controller is to control the CP, employing the CMP when the CP is out of the support polygon, and/or the ZMP when the CP is inside the support polygon. The proposed algorithm is implemented on an abstract model of the SURENA III humanoid robot. Obtained results show the effectiveness of the proposed approach in the presence of severe pushes, even when the support polygon is shrunken to a point or a line.</div>
+  <p class="pub-abstract" itemprop="text">The three bio-inspired strategies that have been used for balance recovery of biped robots are the ankle, hip and stepping Strategies. However, there are several cases for a biped robot where stepping is not possible, e. g. when the available contact surfaces are limited. In this situation, the balance recovery by modulating the angular momentum of the upper body (Hip-strategy) or the Zero Moment Point (ZMP) (Ankle strategy) is essential. In this paper, a single Model Predictive Control (MPC) scheme is employed for controlling the Capture Point (CP) to a desired position by modulating both the ZMP and the Centroidal Moment Pivot (CMP). The goal of the proposed controller is to control the CP, employing the CMP when the CP is out of the support polygon, and/or the ZMP when the CP is inside the support polygon. The proposed algorithm is implemented on an abstract model of the SURENA III humanoid robot. Obtained results show the effectiveness of the proposed approach in the presence of severe pushes, even when the support polygon is shrunken to a point or a line.</p>
 
   
   <div class="row">
@@ -203,7 +218,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9 pub-publication">IEEE/RSI International Conference on Robotics and Mechatronics (ICROM)</div>
+        <div class="col-xs-12 col-sm-9">IEEE/RSI International Conference on Robotics and Mechatronics (ICROM)</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -246,8 +261,8 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1612.08034">
-  Open Access
+<a class="btn btn-primary btn-outline" href="http://www.example.org">
+  Custom Link
 </a>
 
 
@@ -261,11 +276,14 @@
 
   <div class="space-below"></div>
 
-  <div class="article-style"><div>
-
+  <div class="article-style"><p>#
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/2Pnj5hJVeJM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+</p>
 </div>
 
-
+</div>
 
 <div class="container">
   <nav>
@@ -275,6 +293,9 @@
       aria-hidden="true">&larr;</span> Robust bipedal locomotion control based on model predictive control and divergent component of motion</a></li>
     
 
+    
+    <li class="next"><a href="https://miladshafiee.github.io/publication/icrom2017/">Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
