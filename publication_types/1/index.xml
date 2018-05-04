@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Milad Shafiee</title>
+    <link>https://miladshafiee.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Milad Shafiee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
+    <lastBuildDate>Fri, 02 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Robust bipedal locomotion control based on model predictive control and divergent component of motion</title>
+      <link>https://miladshafiee.github.io/publication/icra2017/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/publication/icra2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control</title>
+      <link>https://miladshafiee.github.io/publication/icrom2017/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/publication/icrom2017/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2pPhKCSmwwo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Push recovery of a humanoid robot based on model predictive control and capture point</title>
+      <link>https://miladshafiee.github.io/publication/icrom2016/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/publication/icrom2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

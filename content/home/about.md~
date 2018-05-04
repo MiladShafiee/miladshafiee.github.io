@@ -1,0 +1,41 @@
++++
+# About/Biography widget.
+
+date = "2016-04-20T00:00:00"
+draft = false
+
+widget = "about"
+
+# Order that this section will appear in.
+weight = 1
+
+# List your academic interests.
+[interests]
+  interests = [
+    "Artificial Intelligence",
+    "Computational Linguistics",
+    "Information Retrieval"
+  ]
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "MEng in Mechanical Engineering"
+  institution = "University of Tehran"
+  year = 2017
+
+[[education.courses]]
+  course = "BSc in Mechanical Engineering"
+  institution = "Babol University of Technology"
+  year = 2014
+ 
++++
+
+# Biography
+My name is Andrea Del Prete. I am a robotics researcher focusing on the use of optimization algorithms for control, planning and estimation of legged robots. Since 2017 I am a lead of dynamic and control group of SURENA 4 humanoid robot project  in the Center of Advanced Systems and Technologies(CAST) at University of Tehran, where I work with the humanoid robot SURENA 3 and Mini-SURENA. Here I am mainly collaborating with Nicolas Mansard, Olivier Stasse, Steve Tonneau and Justin Carpentier.
+
+Before coming to LAAS I have spent four years (3 of PhD + 1 of post-doc) at the Italian Institute of Technology (IIT, Genova, Italy), where I have worked with Lorenzo Natale and Francesco Nori on the iCub humanoid robot.
+
+In 2013 I also started a fruitful collaboration with Michele Focchi, an IIT researcher working with the Hydraulic Quadruped HyQ.
+Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 

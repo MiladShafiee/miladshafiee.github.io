@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on Milad Shafiee</title>
+    <link>https://miladshafiee.github.io/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on Milad Shafiee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/deep-learning/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Autonomous Mini-boat</title>
+      <link>https://miladshafiee.github.io/project/boat/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/boat/</guid>
+      <description>&lt;p&gt;Design and implementation of an unmanned autonomous boat in 2nd ASV (Autonomous Surface Vehicle) competition (Sharif University of Technology). It started with the conceptual design of a high speed autonomous unmanned boat. After 9 month of massive teamwork for conceptual and detail design, we reached a final design for implementation. The entire structure of the boat was built according to the initial design using lightweight fiberglass during a 6 month period. Integrating a GPS with a Compass autonomous system of the boat accomplished. We ranked first in all of items of the competition including speed, maneuver, autonomous circle and autonomous spiral items.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
