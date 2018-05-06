@@ -393,28 +393,21 @@ with lazy continuation.&lt;/p&gt;&lt;/dd&gt;
 &lt;h4 id=&#34;2013-2015&#34;&gt;2013 – 2015&lt;/h4&gt;
 
 &lt;div style=&#34;text-align: justify&#34;&gt;  I passed my bachelor thesis under the supervision of [Prof. Daniali ](https://scholar.google.com/citations?user=sNiuzsAAAAAJ&amp;hl=en) about the dynamic analysis of the mechanical system. As a part of my bachelor thesis, with collaboration with  [Dr. varedi](https://scholar.google.com/citations?user=GmzO4EIAAAAJ&amp;hl=en), we analyzed the effect of clearance Joints on the performance of the parallel robot. Clearance imposes some uncontrollable degrees of freedom to a manipulator. Therefore, poor dynamic performance, low accuracy, reduction in components lifetime and generation of undesirable vibrations result in the impacts of mating parts in a clearance joint. In this study, the effects of clearance on the dynamics of a planar 3-RRR parallel manipulator are investigated. Then, an optimization algorithm for simultaneously kinematic and dynamic synthesis has been carried out to reduce these effects and improve the performance and the accuracy of the manipulator. The algorithm is based on changing the lengths and the mass distribution of the links in order to decrease the undesirable end effector acceleration that the clearance produces. A sample results is shown in following figure. &lt;/div&gt;
+![This is an image|512x397,20%](/img/clearance.png)
+![This is an image|512x397,20%](/img/3rrr.png)
 
-&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/3rrr.png&#34; alt=&#34;This is an image|512x397,20%&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Advertisement :)&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;[pica]()&lt;/strong&gt; - high quality and fast image
-resize in browser.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;[babelfish]()&lt;/strong&gt; - developer friendly
-i18n with plurals support and easy syntax.&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;You will like those projects!&lt;/p&gt;
 
-&lt;hr /&gt;
 
-&lt;hr /&gt;
+---
 
-&lt;h3 id=&#34;first-rank-in-the-2nd-autonomous-surface-vehicle-asv-competition&#34;&gt;First rank in The 2ND Autonomous Surface Vehicle (ASV) Competition&lt;/h3&gt;
 
-&lt;h4 id=&#34;sep-2011-mar-2013&#34;&gt;Sep 2011 – Mar 2013&lt;/h4&gt;
+---
+### First rank in The 2ND Autonomous Surface Vehicle (ASV) Competition
 
+#### Sep 2011 – Mar 2013
 &lt;div style=&#34;text-align: justify&#34;&gt; Design and implementation of an unmanned autonomous boat in 2nd ASV (Autonomous Surface Vehicle) competition (Sharif University of Technology). 
 Our goal was to design and fabrication of a high-speed autonomous mini-boat. After 9 month of massive teamwork for conceptual and detail design, we reached a final design for implementation. Integrating a GPS with a Compass autonomous system of the boat accomplished, We ranked first in all of items of the competition including speed, maneuver, autonomous circle and autonomous spiral. My specific task in design process was hydrostatic and stability analysis with the goal of incrasing maneuverability. The following video shows how stable and Maneuverable this boat is! During fabrication process my task was bold making and also I involved in programming and implementation of autonomies algorithms. &lt;/div&gt;
 
