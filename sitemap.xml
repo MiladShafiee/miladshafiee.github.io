@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>https://miladshafiee.github.io/publication/</loc>
+      <loc>https://miladshafiee.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,8 +68,8 @@
     
     <url>
     
-      <loc>https://miladshafiee.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <loc>https://miladshafiee.github.io/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+03:30</lastmod>
     </url>
     
   
@@ -88,6 +88,33 @@
     
       <loc>https://miladshafiee.github.io/publication/nonlineardynamics2016/</loc>
       <lastmod>2016-10-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://miladshafiee.github.io/project/-surena-humanoid-robot-projects/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://miladshafiee.github.io/project/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+04:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://miladshafiee.github.io/project/example-external-project/</loc>
+      <lastmod>2016-04-27T00:00:00+04:30</lastmod>
     </url>
     
   
@@ -131,8 +158,26 @@
     
     <url>
     
+      <loc>https://miladshafiee.github.io/publication/person-re-identification/</loc>
+      <lastmod>2015-09-01T00:00:00+04:30</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://miladshafiee.github.io/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://miladshafiee.github.io/publication/clothing-search/</loc>
+      <lastmod>2013-07-01T00:00:00+04:30</lastmod>
     </url>
     
   
@@ -161,6 +206,26 @@
     <url>
     
       <loc>https://miladshafiee.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://miladshafiee.github.io/tags/deep-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+04:30</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://miladshafiee.github.io/tags/demo/</loc>
+      <lastmod>2016-04-27T00:00:00+04:30</lastmod>
       <priority>0</priority>
     </url>
     
@@ -221,6 +286,16 @@
     
       <loc>https://miladshafiee.github.io/publication_types/</loc>
       <lastmod>2017-06-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://miladshafiee.github.io/tags/surenaproject/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

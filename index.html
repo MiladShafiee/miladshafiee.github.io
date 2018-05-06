@@ -18,7 +18,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/highlight.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
     
   
   
@@ -103,6 +103,18 @@
           <a href="/#publications" data-target="#publications">
             
             <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects" data-target="#projects">
+            
+            <span>Projects</span>
           </a>
         </li>
 
@@ -212,11 +224,11 @@
 
 <h1 id="biography">Biography</h1>
 
-<p align="justify">My name is Milad shafiee. I am a robotics researcher intrested on the use of optimal control and machine learning algorithms for motion planning and control of robots.</p>
+<p>My name is Milad shafiee. I am a robotics researcher intrested on the use of optimal control and machine learning algorithms for motion planning and control of robots.</p>
 
-<p align="justify">I received my master degree in Mechanical engineering from University of Tehran in 2017. Since 2015, I have been a research assistant in the Dynamic and Control group of <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/iran-humanoid-robot-surena-iii" target="_blank">SURENA humanoid robot</a> projects at <a href="http://castech-en.com/" target="_blank">CAST</a>, University of Tehran. My research area during recent years focused on the locomotion planning and control of biped robots, where I used the <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/iran-humanoid-robot-surena-iii" target="_blank">SURENA</a> and <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/iran-surena-mini" target="_blank">Surena Mini</a> humanoid robots as research platforms and I have involved in many experiments for motion planning and control of SURENA and SURENA Mini humanoid robots. My focus during my master thesis is devoted to employing whole capablilty of a humanoid robot for balance recovery in a single Model Predictive Controller.</p>
+<p>I received my master degree in Mechanical engineering from University of Tehran in 2017. Since 2015, I have been a research assistant in the Dynamic and Control group of <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/iran-humanoid-robot-surena-iii" target="_blank">SURENA humanoid robot</a> projects at <a href="http://castech-en.com/" target="_blank">CAST</a>, University of Tehran. My research area during recent years focused on the locomotion planning and control of biped robots, where I used the <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/iran-humanoid-robot-surena-iii" target="_blank">SURENA</a> and <a href="https://spectrum.ieee.org/automaton/robotics/humanoids/iran-surena-mini" target="_blank">Surena Mini</a> humanoid robots as research platforms and I have involved in many experiments for motion planning and control of SURENA and SURENA Mini humanoid robots. My focus during my master thesis is devoted to employing whole capablilty of a humanoid robot for balance recovery in a single Model Predictive Controller.</p>
 
-<p align="justify">Since 2017, I&rsquo;m also the leader of Dynamics and Control group of SURENA 4 Humanoid robot project at CAST and I currently work on developing a rubust and human-like motion planning algorithm for SURENA4 humanoid robot.</p>
+<p>Since 2017, I&rsquo;m also the leader of Dynamics and Control group of SURENA 4 Humanoid robot project at CAST and I currently work on developing a rubust and human-like motion planning algorithm for SURENA4 humanoid robot.</p>
 
 
     <div class="row">
@@ -301,7 +313,11 @@
         <a href="https://miladshafiee.github.io/publication/icra2017/" itemprop="url">Robust bipedal locomotion control based on model predictive control and divergent component of motion</a>
       </h3>
 
-     
+      <div class="pub-abstract" itemprop="text">
+        
+        In this paper, previous works on the Model Predictive Control (MPC) and the Divergent Component of Motion (DCM) for bipedal walking control are extended. To this end, we employ a single MPC which uses a combination of Center of Pressure (CoP) manipulation, step adjustment, and Centroidal Moment Pivot (CMP) modulation to design a robust walking controller. Furthermore, we exploit the concept of time-varying DCM to generalize our walking controller for walking in uneven surfaces. Using our scheme, a general and robust walking controller is designed which can be implemented on robots with different control authorities, for walking on various environments, e.g. uneven terrains or surfaces with a very limited feasible area for stepping. The effectiveness of the proposed approach is verified through simulations on different scenarios and comparison to the state of the art.
+        
+      </div>
 
       <div class="pub-authors" itemprop="author">
         
@@ -310,17 +326,14 @@
       </div>
 
       <div class="pub-publication">
-        In
-        <i>
-        IEEE International Conference on Robotics and Automation (ICRA), 2017.
-        </i>
+        
+        IEEE International Conference on Robotics and Automation (ICRA)
+        
       </div>
 
       <div class="pub-links">
         
-<div class="btn btn-primary btn-outline btn-xs" onclick="showContent('Robust bipedal locomotion control based on model predictive control and divergent component of motion')">
-  Abstract
-</div>
+
 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/publication/icra2017/">
@@ -338,43 +351,12 @@
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1702.08742">
-  Open Access
-</a>
-
 
       </div>
-      
-      
-      
-      
-     <div class="pub-abstract" itemprop="text" id="Robust bipedal locomotion control based on model predictive control and divergent component of motion" style="display: none">
-       In this paper, previous works on the Model Predictive Control (MPC) and the Divergent Component of Motion (DCM) for bipedal walking control are extended. To this end, we employ a single MPC which uses a combination of Center of Pressure (CoP) manipulation, step adjustment, and Centroidal Moment Pivot (CMP) modulation to design a robust walking controller. Furthermore, we exploit the concept of time-varying DCM to generalize our walking controller for walking in uneven surfaces. Using our scheme, a general and robust walking controller is designed which can be implemented on robots with different control authorities, for walking on various environments, e.g. uneven terrains or surfaces with a very limited feasible area for stepping. The effectiveness of the proposed approach is verified through simulations on different scenarios and comparison to the state of the art.
-      </div>
-
- <div style="height:20px">
-    </div>
-
 
     </div>
   </div>
 </div>
-
-
-<script>
-function showContent(id) {
-  if(document.getElementById(id).style.display == '')
-  {
-    document.getElementById(id).style.display='none';
-  }
-  else 
-  {
-    document.getElementById(id).style.display='';
-  }
-}
-</script>
-
-
 
     
     <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
@@ -410,18 +392,7 @@ function showContent(id) {
 
       <div class="pub-links">
         
-<script>
-function showContent(id) {
-  if(document.getElementById(id).style.display == '')
-  {
-    document.getElementById(id).style.display='none';
-  }
-  else 
-  {
-    document.getElementById(id).style.display='';
-  }
-}
-</script>
+
 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/publication/icrom2017/">
@@ -484,18 +455,7 @@ function showContent(id) {
 
       <div class="pub-links">
         
-<script>
-function showContent(id) {
-  if(document.getElementById(id).style.display == '')
-  {
-    document.getElementById(id).style.display='none';
-  }
-  else 
-  {
-    document.getElementById(id).style.display='';
-  }
-}
-</script>
+
 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/publication/icrom2016/">
@@ -555,18 +515,6 @@ function showContent(id) {
       <div class="pub-links">
         
 
-<script>
-function showContent(id) {
-  if(document.getElementById(id).style.display == '')
-  {
-    document.getElementById(id).style.display='none';
-  }
-  else 
-  {
-    document.getElementById(id).style.display='';
-  }
-}
-</script>
 
 
 <a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/publication/nonlineardynamics2016/">
@@ -592,6 +540,225 @@ function showContent(id) {
 </div>
 
     
+    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+      <a href="https://miladshafiee.github.io/publication/clothing-search/">
+        <img src="/img/headers/bubbles-wide.jpg" class="pub-banner" itemprop="image">
+      </a>
+    </div>
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="https://miladshafiee.github.io/publication/clothing-search/" itemprop="url">Mobile visual clothing search</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone&rsquo;s GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        GA Cushen, MS Nixon
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>ICMEW</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/publication/clothing-search/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf">
+  PDF
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/">
+  Slides
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/">
+  Video
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/">
+  Code
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/">
+  Dataset
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://miladshafiee.github.io/">
+  Project
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://example.org">
+  Custom Link
+</a>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Projects</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    <div class="project-toolbar">
+      <div id="filters">
+        <div class="btn-toolbar">
+          <div class="btn-group">
+          
+            <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
+          
+            <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-large">Deep Learning</a>
+          
+            <a href="#" data-filter=".demo" class="btn btn-primary btn-large">Other</a>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div id="container-projects" class="row isotope">
+
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item Humanoids">
+        <div class="card">
+          
+          <a href="https://miladshafiee.github.io/project/push/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/mini.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://miladshafiee.github.io/project/push/" >Robust motion control of a humanoid robot</a></h4>
+            <div class="card-desription">
+              <p>Robust motion control of a humanoid robot</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item SurenaProject">
+        <div class="card">
+          
+          <a href="https://miladshafiee.github.io/project/-surena-humanoid-robot-projects/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/bubbles.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://miladshafiee.github.io/project/-surena-humanoid-robot-projects/" >Dynamics &amp; Control of SURENA humanoid Robot Projects</a></h4>
+            <div class="card-desription">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://miladshafiee.github.io/project/deep-learning/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/bubbles.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://miladshafiee.github.io/project/deep-learning/" >Deep Learning</a></h4>
+            <div class="card-desription">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item demo">
+        <div class="card">
+          
+          <a href="http://example.org" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/boards.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="http://example.org" target="_blank">External Project</a></h4>
+            <div class="card-desription">
+              <p>An example of linking directly to an external project website using <code>external_link</code>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
     
 
   </div>
