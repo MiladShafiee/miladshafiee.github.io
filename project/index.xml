@@ -11,7 +11,7 @@
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Human-like locomotion planning and control</title>
+      <title>Human-like locomotion planning </title>
       <link>https://miladshafiee.github.io/project/hllp/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0430</pubDate>
       
@@ -27,14 +27,14 @@
 &lt;hr /&gt;
 
 &lt;div style=&#34;text-align: justify&#34;&gt;  We have started to develop  SURENA 4 humanoid robot and  I’m the leader of dynamic and control group of this project. The main goal of this project is developing a human-inspired humanoid robot. 
-I am continuing the research this days, developing and implementing a human-like motion planning algorithm for SURENA 4 robot.
+I am continuing the research this days, developing and implementing a human-like motion planning algorithm for SURENA 4 robot.&lt;/div&gt;
 
-The locomotion planning methods for conventional humanoid robots have two main drawbacks that the generated locomotion patterns  by conventional methods are quasi-static and they walk with bent-knee(in order to avoiding singularity). 
+&lt;div style=&#34;text-align: justify&#34;&gt;The locomotion planning methods for conventional humanoid robots have two main drawbacks that the generated locomotion patterns  by conventional methods are quasi-static and they walk with bent-knee(in order to avoiding singularity). 
 In this research a novel method for human-like walking pattern generation is proposed based on introducing spatially quantized dynamic(SQD) of divergent component of motion(DCM). In contrast to conventional DCM based motion planning that a equation of motion is discretized by a constant step time, in our method the DCM dynamic quantized by a constant unit length along the desired direction. To this end, first we design a kinematic pattern for walking based on human motion with stretched knee. Then we map this kinematic pattern into time space based on SQD of DCM. Using our scheme, a general and real time motion planner is designed which can be used for human like motion planning in different scenarios.
 Using the idea of time-varying DCM, our controller is capable of dealing with walking with larger step length that causes traversing bigger obstacles
-and fewer power consumption.
+and fewer power consumption.&lt;/div&gt;
 
-Now, I&#39;m adding an optimization-based balance recovery controller to proposed scheme that adaptate the step position and duration under external disturbances. The following video shows the simulation of this algorithm.&lt;/div&gt;
+&lt;div style=&#34;text-align: justify&#34;&gt;Now, I&#39;m adding an optimization-based balance recovery controller to proposed scheme that adaptate the step position and duration under external disturbances. The following video shows the simulation of this algorithm.&lt;/div&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
