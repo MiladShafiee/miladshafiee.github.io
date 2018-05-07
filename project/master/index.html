@@ -208,9 +208,9 @@
 
 <hr />
 
-<h3 id="push-recovery-of-a-humanoid-robot-under-severe-external-disturbance">Push recovery of a humanoid robot under severe external disturbance</h3>
+<h3 id="push-recovery-of-a-humanoid-robot-under-severe-external-disturbances">Push recovery of a humanoid robot under severe external disturbances</h3>
 
-<h4 id="2013-2015">2013 – 2015</h4>
+<h4 id="2015-2016">2015 – 2016</h4>
 
 <div style="text-align: justify">  I passed my master thesis under the supervision of <a href="https://scholar.google.com/citations?user=Cz1X5e8AAAAJ&hl=en">Prof. Aghil Yousefi-Koma</a> and my goal was to employ whole capability of a biped robot for balance recovery. In
 this regard my work can be devided into two parts.  </div>
@@ -227,11 +227,13 @@ this regard my work can be devided into two parts.  </div>
 
 <hr />
 
-<div style="text-align: justify"> In this part of research, a combination of ankle and hip strategy is used for push recovery of a position-controlled humanoid robot. Ankle strategy and hip strategy are equivalent to Center of Pressure (CoP) and Centroidal Moment Pivot (CMP) regulation respectively. For controlling the CMP and CoP we need a torque-controlled robot, however most of the conventional humanoid robots are position controlled. In this regard, we present an efficient way for implementation of the hip and ankle strategies on a position controlled humanoid robot. We employ a feedback controller to compensate the capture point error. Using our scheme, a simple and practical push recovery controller is designed which can be implemented on the most of the conventional humanoid robots without the need for torque sensors. The following video shows verified through push recovery experiments on SURENA-Mini humanoid robot under severe pushes. The detail of this balance recovery controller is available in the following paper.
+<div style="text-align: justify"> In this part of research, a combination of ankle and hip strategy is used for push recovery of a position-controlled humanoid robot. Ankle strategy and hip strategy are equivalent to Center of Pressure (CoP) and Centroidal Moment Pivot (CMP) regulation respectively. For controlling the CMP and CoP we need a torque-controlled robot, however most of the conventional humanoid robots are position controlled. In this regard, we present an efficient way for implementation of the hip and ankle strategies on a position controlled humanoid robot. We employ a feedback controller to compensate the capture point error. Using our scheme, a simple and practical push recovery controller is designed which can be implemented on the most of the conventional humanoid robots without the need for torque sensors. The following video shows verified through push recovery experiments on SURENA-Mini humanoid robot under severe pushes. The detail of this balance recovery controller is available in the following paper.</div>
 
-Related paper:
+<p>Related paper:</p>
 
-* [Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Rehane Mirjailii, Hesam Maleki, Mojtaba Karimi, Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control , 2017 IEEE/RSJ  International Conference on Robotics and Mechatronics (ICROM 2017)](https://arxiv.org/pdf/1710.10598.pdf)
+<ul>
+<li><a href="https://arxiv.org/pdf/1710.10598.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Rehane Mirjailii, Hesam Maleki, Mojtaba Karimi, Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control , 2017 IEEE/RSJ  International Conference on Robotics and Mechatronics (ICROM 2017)</a></li>
+</ul>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
@@ -239,26 +241,15 @@ Related paper:
  </div>
 
 
+<hr />
 
+<h3 id="part-2-robust-bipedal-locomotion-control-based-on-model-predictive-control-and-divergent-component-of-motion">Part 2: Robust Bipedal Locomotion Control Based on Model Predictive Control and Divergent Component of Motion</h3>
 
-
----
-
-### Part 2: Robust Bipedal Locomotion Control Based on Model Predictive Control and Divergent Component of Motion
-
----
+<hr />
 
 <div style="text-align: justify"> In this part, previous works on the Model Predictive Control (MPC) and the Divergent Component of Motion (DCM) or capture point for bipedal walking control are extended. To this end, we employ a single MPC which uses a combination of Center of Pressure (CoP) manipulation, step adjustment, and Centroidal Moment Pivot (CMP) modulation to design a robust walking controller. The main contribution of our work is inclusion of angular momentum in DCM dynamic. Furthermore, we exploit the concept of time-varying DCM to generalize our walking controller for walking in uneven surfaces. Using our scheme, a general and robust walking controller is designed which can be implemented on robots with different control authorities, for walking on various environments, e.g. uneven terrains or surfaces with a very limited feasible area for stepping. The results from simulation on different scenarios showed the robustness of our controller in various situations such as balance recovery during walking on rock.</div>
 
-<p>Related paper:</p>
-
-<ul>
-<li><p><a href="https://arxiv.org/pdf/1702.08742.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Robust Bipedal Papers - Locomotion Control Based on the Model Predictive Control and the Divergent Component of Motion, 2017 International Conference on Robotics and Automation(ICRA 2017)</a></p></li>
-
-<li><p><a href="https://arxiv.org/pdf/1612.08034.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Majid Khadiv, Push Recovery of a Humanoid Robot Based on Model Predictive Control and Capture Point, 2016 IEEE/RSJ International Conference on Robotics and Mechatronics (ICROM 2016)</a></p></li>
-</ul>
-
-<div style="text-align: justify">In the standing mode push recovery scenario, a pushes are exerted on the CoM of the robot. As we expected, the large push throws the CP out of the support polygon, and the ZMP(CoP) cannot navigate it. Therefore, the angular momentum is generated by the MPC to move the CMP outside the support polygon for controlling the CP. </div>
+<div style="text-align: justify">In the standing mode push recovery scenario, a severe push is exerted on the CoM of the robot. As we expected, the large push throws the CP out of the support polygon, and the ZMP(CoP) cannot navigate it. Therefore, the angular momentum is generated by the MPC to move the CMP outside the support polygon for controlling the CP. </div>
 
 <div style="text-align: justify"> In the second scenario, the robot stands on one leg, while the contact surface is shrunken to a line or a point. Two examples for this situation are standing on lumber and standing on rock. In this case, the CMP modulation recovers the robot from the disturbance, because the support polygon is too small and the ankle strategy is not helpful anymore. In this situation, the CP leaves the support polygon and the CoP remains on the bounds of the support polygon, while the CMP pushes the CP to the desired position.</div>
 
@@ -273,7 +264,15 @@ Related paper:
 
 <hr />
 
-<h2 id="this-is-an-image-100x100-20-img-clearance-png"><img src="/img/clearance.png" alt="This is an image|100x100,20%" /></h2>
+<p>Related paper:</p>
+
+<ul>
+<li><p><a href="https://arxiv.org/pdf/1702.08742.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Robust Bipedal Papers - Locomotion Control Based on the Model Predictive Control and the Divergent Component of Motion, 2017 International Conference on Robotics and Automation(ICRA 2017)</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1612.08034.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Majid Khadiv, Push Recovery of a Humanoid Robot Based on Model Predictive Control and Capture Point, 2016 IEEE/RSJ International Conference on Robotics and Mechatronics (ICROM 2016)</a></p></li>
+</ul>
+
+<hr />
 
 <h1 id="h1-heading-8">h1 Heading 8-)</h1>
 
