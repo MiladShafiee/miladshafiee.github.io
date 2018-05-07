@@ -20,7 +20,7 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;surena-4-humanoid-robot&#34;&gt;SURENA 4 Humanoid Robot&lt;/h3&gt;
+&lt;h3 id=&#34;human-like-locomotion-planning-and-control&#34;&gt;Human-like locomotion planning and control&lt;/h3&gt;
 
 &lt;h4 id=&#34;2017-present&#34;&gt;2017 – Present&lt;/h4&gt;
 
@@ -232,15 +232,8 @@ of the Springer publisher. &lt;/div&gt;
 
 &lt;h4 id=&#34;sep-2011-mar-2013&#34;&gt;Sep 2011 – Mar 2013&lt;/h4&gt;
 
-&lt;div style=&#34;text-align: justify&#34;&gt; Design and implementation of an unmanned autonomous boat in 2nd ASV (Autonomous Surface Vehicle) competition (Sharif University of Technology). 
+&lt;div style=&#34;text-align: justify&#34;&gt; Design and implementation of an autonomous boat in 2nd ASV (Autonomous Surface Vehicle) competition (Sharif University of Technology). 
 Our goal was to design and fabrication of a high-speed autonomous mini-boat. After 9 month of massive teamwork for conceptual and detail design, we reached a final design for implementation. Integrating a GPS with a Compass autonomous system of the boat accomplished, We ranked first in all of items of the competition including speed, maneuver, autonomous circle and autonomous spiral. My specific task in design process was hydrostatic and stability analysis with the goal of incrasing maneuverability. The following video shows how stable and Maneuverable this boat is! During fabrication process my task was bold making and also I involved in programming and implementation of autonomies algorithms. &lt;/div&gt;
-
-&lt;p&gt;The  video of sample experiment is as following:
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/2pPhKCSmwwo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/p&gt;
 
 &lt;hr /&gt;
 
