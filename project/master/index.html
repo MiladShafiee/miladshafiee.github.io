@@ -223,15 +223,15 @@ this regard my work can be devided into two parts.  </div>
 
 <hr />
 
-<h3 id="part-1-human-inspired-feedback-controller-for-balance-recovery-of-mini-surena-humanoid-robot">Part 1:human-inspired feedback controller for balance recovery of Mini-SURENA humanoid robot</h3>
+<h3 id="part-1-human-inspired-feedback-controller-for-balance-recovery-of-surena-mini-humanoid-robot">Part 1: Human-inspired feedback controller for balance recovery of SURENA Mini humanoid robot</h3>
 
-<p>In this part of research, a combination of ankle and hip strategy is used for push recovery of a position-controlled humanoid robot. Ankle strategy and hip strategy are equivalent to Center of Pressure (CoP) and Centroidal Moment Pivot (CMP) regulation respectively. For controlling the CMP and CoP we need a torque-controlled robot, however most of the conventional humanoid robots are position controlled. In this regard, we present an efficient way for implementation of the hip and ankle strategies on a position controlled humanoid robot. We employ a feedback controller to compensate the capture point error. Using our scheme, a simple and practical push recovery controller is designed which can be implemented on the most of the conventional humanoid robots without the need for torque sensors. The following video shows verified through push recovery experiments on SURENA-Mini humanoid robot under severe pushes. The detail of this balance recovery controller is available in the following paper.</p>
+<hr />
 
-<p>Related paper:</p>
+<div style="text-align: justify"> In this part of research, a combination of ankle and hip strategy is used for push recovery of a position-controlled humanoid robot. Ankle strategy and hip strategy are equivalent to Center of Pressure (CoP) and Centroidal Moment Pivot (CMP) regulation respectively. For controlling the CMP and CoP we need a torque-controlled robot, however most of the conventional humanoid robots are position controlled. In this regard, we present an efficient way for implementation of the hip and ankle strategies on a position controlled humanoid robot. We employ a feedback controller to compensate the capture point error. Using our scheme, a simple and practical push recovery controller is designed which can be implemented on the most of the conventional humanoid robots without the need for torque sensors. The following video shows verified through push recovery experiments on SURENA-Mini humanoid robot under severe pushes. The detail of this balance recovery controller is available in the following paper.
 
-<ul>
-<li><a href="https://arxiv.org/pdf/1710.10598.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Rehane Mirjailii, Hesam Maleki, Mojtaba Karimi, Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control , 2017 IEEE/RSJ  International Conference on Robotics and Mechatronics (ICROM 2017)</a></li>
-</ul>
+Related paper:
+
+* [Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Rehane Mirjailii, Hesam Maleki, Mojtaba Karimi, Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control , 2017 IEEE/RSJ  International Conference on Robotics and Mechatronics (ICROM 2017)](https://arxiv.org/pdf/1710.10598.pdf)
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
@@ -239,9 +239,37 @@ this regard my work can be devided into two parts.  </div>
  </div>
 
 
-<hr />
 
-<h3 id="part-2">Part 2:</h3>
+
+
+---
+
+### Part 2: Robust Bipedal Locomotion Control Based on Model Predictive Control and Divergent Component of Motion
+
+---
+
+<div style="text-align: justify"> In this part, previous works on the Model Predictive Control (MPC) and the Divergent Component of Motion (DCM) or capture point for bipedal walking control are extended. To this end, we employ a single MPC which uses a combination of Center of Pressure (CoP) manipulation, step adjustment, and Centroidal Moment Pivot (CMP) modulation to design a robust walking controller. The main contribution of our work is inclusion of angular momentum in DCM dynamic. Furthermore, we exploit the concept of time-varying DCM to generalize our walking controller for walking in uneven surfaces. Using our scheme, a general and robust walking controller is designed which can be implemented on robots with different control authorities, for walking on various environments, e.g. uneven terrains or surfaces with a very limited feasible area for stepping. The results from simulation on different scenarios showed the robustness of our controller in various situations such as balance recovery during walking on rock.</div>
+
+<p>Related paper:</p>
+
+<ul>
+<li><p><a href="https://arxiv.org/pdf/1702.08742.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Robust Bipedal Papers - Locomotion Control Based on the Model Predictive Control and the Divergent Component of Motion, 2017 International Conference on Robotics and Automation(ICRA 2017)</a></p></li>
+
+<li><p><a href="https://arxiv.org/pdf/1612.08034.pdf" target="_blank">Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Majid Khadiv, Push Recovery of a Humanoid Robot Based on Model Predictive Control and Capture Point, 2016 IEEE/RSJ International Conference on Robotics and Mechatronics (ICROM 2016)</a></p></li>
+</ul>
+
+<div style="text-align: justify">In the standing mode push recovery scenario, a pushes are exerted on the CoM of the robot. As we expected, the large push throws the CP out of the support polygon, and the ZMP(CoP) cannot navigate it. Therefore, the angular momentum is generated by the MPC to move the CMP outside the support polygon for controlling the CP. </div>
+
+<div style="text-align: justify"> In the second scenario, the robot stands on one leg, while the contact surface is shrunken to a line or a point. Two examples for this situation are standing on lumber and standing on rock. In this case, the CMP modulation recovers the robot from the disturbance, because the support polygon is too small and the ankle strategy is not helpful anymore. In this situation, the CP leaves the support polygon and the CoP remains on the bounds of the support polygon, while the CMP pushes the CP to the desired position.</div>
+
+<div style="text-align: justify"> Based on the simulation results, the regulation of angular momentum is so beneficial during balance recovery, especially in the standing on small contact surfaces or in the situations where stepping is not possible.</div>
+
+<p>The results of two mentioned simulation is available at following video:
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/bDPafm-6CLk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+</p>
 
 <hr />
 
