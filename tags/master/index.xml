@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Master on Milad Shafiee</title>
+    <link>https://miladshafiee.github.io/tags/master/</link>
+    <description>Recent content in Master on Milad Shafiee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0430</lastBuildDate>
+    
+	<atom:link href="https://miladshafiee.github.io/tags/master/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MAster Thesis</title>
+      <link>https://miladshafiee.github.io/project/master/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0430</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/master/</guid>
+      <description>Push recovery of a humanoid robot under severe external disturbance 2013 – 2015 I passed my master thesis under the supervision of Prof. Aghil Yousefi-Koma and my goal was to employ whole capability of a biped robot for balance recovery. In this regard my work can be devided into two parts. + I developed a human-inspired feedback controller for push recovery of Mini-SURENA humanoid robot + We deploy model predictive control and concept of Divergent Component of motion to developing a Push recovery Controller.</description>
+    </item>
+    
+  </channel>
+</rss>
