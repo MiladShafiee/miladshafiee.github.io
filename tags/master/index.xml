@@ -28,16 +28,22 @@
 this regard my work can be devided into two parts.  &lt;/div&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;em&gt;I developed a human-inspired feedback controller for push recovery of Mini-SURENA humanoid robot&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;I developed a human-inspired feedback controller for push recovery of Mini-SURENA humanoid robot&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;em&gt;We deploy model predictive control and concept of Divergent Component of motion to developing a Push recovery Controller during walking and also in stance mode.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;We deploy model predictive control and concept of Divergent Component of motion to developing a Push recovery Controller during walking and also in stance mode.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&#34;human-inspired-feedback-controller-for-balance-recovery-of-mini-surena-humanoid-robot&#34;&gt;human-inspired feedback controller for balance recovery of Mini-SURENA humanoid robot&lt;/h4&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;part-1-human-inspired-feedback-controller-for-balance-recovery-of-mini-surena-humanoid-robot&#34;&gt;Part 1:human-inspired feedback controller for balance recovery of Mini-SURENA humanoid robot&lt;/h3&gt;
 
 &lt;p&gt;In this part of research, a combination of ankle and hip strategy is used for push recovery of a position-controlled humanoid robot. Ankle strategy and hip strategy are equivalent to Center of Pressure (CoP) and Centroidal Moment Pivot (CMP) regulation respectively. For controlling the CMP and CoP we need a torque-controlled robot, however most of the conventional humanoid robots are position controlled. In this regard, we present an efficient way for implementation of the hip and ankle strategies on a position controlled humanoid robot. We employ a feedback controller to compensate the capture point error. Using our scheme, a simple and practical push recovery controller is designed which can be implemented on the most of the conventional humanoid robots without the need for torque sensors. The following video shows verified through push recovery experiments on SURENA-Mini humanoid robot under severe pushes. The detail of this balance recovery controller is available in the following paper.&lt;/p&gt;
 
-&lt;p&gt;+&lt;a href=&#34;https://arxiv.org/pdf/1710.10598.pdf&#34; target=&#34;_blank&#34;&gt;Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Rehane Mirjailii, Hesam Maleki, Mojtaba Karimi, Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control , 2017 IEEE/RSJ  International Conference on Robotics and Mechatronics (ICROM 2017)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Related paper:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1710.10598.pdf&#34; target=&#34;_blank&#34;&gt;Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Rehane Mirjailii, Hesam Maleki, Mojtaba Karimi, Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control , 2017 IEEE/RSJ  International Conference on Robotics and Mechatronics (ICROM 2017)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
@@ -45,15 +51,13 @@ this regard my work can be devided into two parts.  &lt;/div&gt;
  &lt;/div&gt;
 
 
-&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/clearance.png&#34; alt=&#34;This is an image|100x100,20%&#34; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;part-2&#34;&gt;Part 2:&lt;/h3&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;####&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
+&lt;h2 id=&#34;this-is-an-image-100x100-20-img-clearance-png&#34;&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/clearance.png&#34; alt=&#34;This is an image|100x100,20%&#34; /&gt;&lt;/h2&gt;
 
 &lt;h1 id=&#34;h1-heading-8&#34;&gt;h1 Heading 8-)&lt;/h1&gt;
 
