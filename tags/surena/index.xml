@@ -1,88 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Surena on Milad Shafiee</title>
+    <title>SURENA on Milad Shafiee</title>
     <link>https://miladshafiee.github.io/tags/surena/</link>
-    <description>Recent content in Surena on Milad Shafiee</description>
+    <description>Recent content in SURENA on Milad Shafiee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
-    <lastBuildDate>Sat, 27 Aug 2016 00:00:00 +0430</lastBuildDate>
-    <atom:link href="/tags/surena/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Aug 2016 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://miladshafiee.github.io/tags/surena/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Surena humanoid robot Projects</title>
       <link>https://miladshafiee.github.io/project/surena/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0430</pubDate>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0200</pubDate>
       
       <guid>https://miladshafiee.github.io/project/surena/</guid>
-      <description>
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;surena-iii-humanoid-robot&#34;&gt;SURENA III Humanoid Robot&lt;/h3&gt;
-
-&lt;h4 id=&#34;2016-2017&#34;&gt;2016 – 2017&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;div style=&#34;text-align: justify&#34;&gt;  SURENA III is the third generation of Iranian Humanoid robot and selected as one of the most advanced
-humanoid robots by the IEEE Spectrum magazine. This robot is fully actuated full-size humanoid robot.
-During the one year of working as a member of Dynamic and Control group of SURENA III, I had invloved in conducting numerous advanced algorithms for walking, stair, and slope ascending and descending. SURENA III has unveiled to the public 2 years ago.&lt;/div&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/mR5IThJslkY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;surena-mini-humanoid-robot&#34;&gt;SURENA Mini Humanoid Robot&lt;/h3&gt;
-
-&lt;h4 id=&#34;2016-2017-1&#34;&gt;2016 – 2017&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;div style=&#34;text-align: justify&#34;&gt; We started to develop a low-cost research platform
-for universities, that we call this Mini-SURENA humanoid robot. We built 4 prototypes and I was the key
-member of Dynamic and Control group of the Mini-SURENA humanoid robot. I conduct many experiments
-during past one year on Mini-SURENA robot. The following videos shows a push recovery controller performance that is developed by me and the video that Vice President for Science and Technology  of Iran tests the push recovery  controller in the public unveiling. &lt;/div&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/2pPhKCSmwwo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/tFH3fFcG814&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/U71STMsbwo8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;surena-4-humanoid-robot&#34;&gt;SURENA 4 Humanoid Robot&lt;/h3&gt;
-
-&lt;h4 id=&#34;2017-present&#34;&gt;2017 – Present&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;div style=&#34;text-align: justify&#34;&gt;  We have started to develop  SURENA 4 humanoid robot and  I’m the leader of dynamic and control group of this project. The main goal of this project is developing a human-inspired humanoid robot. Now, the design and fabrication process of SURENA 4 humanoid robot is finished and we have started to
-test the actuators(harmonic drive+motor) that our motors are from MAXON company and also the Robo-Drive company. We have used Epos 4 motion controllers as a low-level controller I have selected the actuators of SURENA 4 humanoid robot based on dynamic simulation of walking and finding the torque and velocity of joints. Selecting the appropriate actuator for this kind of robots is so crucial. For example selecting a over-designed actuator will increase the weight of robot and challenges of dynamic balancing of robot will increase drastically.
-
-I am continuing the research this days, developing and implementing a human-like motion planning algorithm for SURENA 4 robot. The locomotion planning methods for conventional humanoid robots have two main drawbacks that the generated locomotion patterns  by conventional methods are quasi-static and they walk with bent-knee(in order to avoiding singularity). However in this work, we have solved inverse kinematic problem based on a singularity robust algorithm, Also, we have proposed
-a novel center of mass motion planner for generating human like walking pattern generation.&lt;/div&gt;
-
-&lt;hr /&gt;
-</description>
+      <description>This page is about Surena humanoid robot Projects</description>
     </item>
     
   </channel>

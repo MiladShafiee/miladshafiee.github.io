@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Milad Shafiee</title>
@@ -8,7 +8,46 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://miladshafiee.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://miladshafiee.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/home/about/</guid>
+      <description>Biography My name is Milad shafiee. I am a robotics researcher intrested on the use of optimal control and machine learning algorithms for motion planning and control of robots.
+I received my master degree in Mechanical engineering from University of Tehran in 2017. Since 2015, I have been a research assistant in the Dynamic and Control group of SURENA humanoid robot projects at CAST, University of Tehran. My research area during recent years focused on the locomotion planning and control of biped robots, where I used the SURENA and Surena Mini humanoid robots as research platforms and I have involved in many experiments for motion planning and control of SURENA and SURENA Mini humanoid robots.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://miladshafiee.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://miladshafiee.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://miladshafiee.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://miladshafiee.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

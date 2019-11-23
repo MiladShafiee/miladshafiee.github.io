@@ -1,62 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bachelor on Milad Shafiee</title>
+    <title>bachelor on Milad Shafiee</title>
     <link>https://miladshafiee.github.io/tags/bachelor/</link>
-    <description>Recent content in Bachelor on Milad Shafiee</description>
+    <description>Recent content in bachelor on Milad Shafiee</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
-    <lastBuildDate>Mon, 27 Apr 2015 00:00:00 +0430</lastBuildDate>
-    <atom:link href="/tags/bachelor/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2015 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://miladshafiee.github.io/tags/bachelor/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Selected Undergraduate Projects</title>
       <link>https://miladshafiee.github.io/project/bachelor/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 +0430</pubDate>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0200</pubDate>
       
       <guid>https://miladshafiee.github.io/project/bachelor/</guid>
-      <description>
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;reducing-effects-of-joints-clearance-on-the-behavior-of-the-parallel-manipulators-a-part-of-bachelor-thesis&#34;&gt;Reducing effects of joints clearance on the behavior of the  parallel manipulators(A Part of Bachelor Thesis)&lt;/h3&gt;
-
-&lt;h4 id=&#34;2013-2015&#34;&gt;2013 – 2015&lt;/h4&gt;
-
-&lt;div style=&#34;text-align: justify&#34;&gt;  I passed my bachelor thesis under the supervision of &lt;a href=&#34;https://scholar.google.com/citations?user=sNiuzsAAAAAJ&amp;hl=en&#34;&gt;Prof.Daniali&lt;/a&gt; about the dynamic analysis of the mechanical system. As a part of my bachelor thesis, with collaboration with &lt;a href=&#34;https://scholar.google.com/citations?user=GmzO4EIAAAAJ&amp;hl=en&#34;&gt;Dr.Varedi&lt;/a&gt;, we analyzed the effect of clearance Joints on the performance of the parallel robot. Clearance imposes some uncontrollable degrees of freedom to a manipulator. Therefore, poor dynamic performance, low accuracy, reduction in components lifetime and generation of undesirable vibrations result in the impacts of mating parts in a clearance joint. In this study, the effects of clearance on the dynamics of a planar 3-RRR parallel manipulator are investigated. Then, an optimization algorithm for simultaneously kinematic and dynamic synthesis has been carried out to reduce these effects and improve the performance and the accuracy of the manipulator. The algorithm is based on changing the lengths and the mass distribution of the links in order to decrease the undesirable end effector acceleration that the clearance produces. A sample results is shown in following figure that shows how the proposed method decrease the undesirable acceleration of end effector. This researches led to publishing a paper with following title in the “Nonlinear Dynamics” Journal
-of the Springer publisher. &lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s11071-016-2942-7&#34; target=&#34;_blank&#34;&gt;Varedi-Koulaei SM, Daniali HM, Farajtabar M, Fathi B, Shafiee-Ashtiani M. Reducing the undesirable effects of joints clearance on the behavior of the planar 3-RRR parallel manipulators. Nonlinear Dynamics. 2016 Oct 1;86(2):1007-22.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/clearance.png&#34; alt=&#34;This is an image|512x397,20%&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/3rrr.png&#34; alt=&#34;This is an image|512x397,20%&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;first-rank-in-the-2nd-autonomous-surface-vehicle-asv-competition&#34;&gt;First rank in The 2ND Autonomous Surface Vehicle (ASV) Competition&lt;/h3&gt;
-
-&lt;h4 id=&#34;sep-2011-mar-2013&#34;&gt;Sep 2011 – Mar 2013&lt;/h4&gt;
-
-&lt;div style=&#34;text-align: justify&#34;&gt; Design and implementation of an autonomous boat in 2nd ASV (Autonomous Surface Vehicle) competition (Sharif University of Technology). 
-Our goal was to design and fabrication of a high-speed autonomous mini-boat. After 9 month of massive teamwork for conceptual and detail design, we reached a final design for implementation. Integrating a GPS with a Compass autonomous system of the boat accomplished, We ranked first in all of items of the competition including speed, maneuver, autonomous circle and autonomous spiral. My specific task in design process was hydrostatic and stability analysis with the goal of incrasing maneuverability. The following video shows how stable and Maneuverable this boat is! During fabrication process my task was bold making and also I involved in programming and implementation of autonomies algorithms. &lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;summer-internship-at-tam-iran-khodro&#34;&gt;Summer Internship at TAM IRAN KHODRO&lt;/h3&gt;
-
-&lt;h4 id=&#34;june-sep-2014&#34;&gt;June-Sep 2014&lt;/h4&gt;
-
-&lt;div style=&#34;text-align: justify&#34;&gt;TAM with over a decade of continuous business presence and engagement with Iran’s major industrial companies is well known as a leading engineering (EPC) service company in the Automotive, Mine, Rail, Oil &amp; gas and power industries. 
-My work at Iran-Khodro Co. during my summer internship gave me a practical knowledge and insight into the field of Industrial Robotics and become more familiar with the industrial manipulators such as KUKA and ABB arc welding manipulators. &lt;/div&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/industrial.jpg&#34; alt=&#34;This is an image3|512x397,20%&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>This page includes some of my undergraduate projects</description>
     </item>
     
   </channel>
