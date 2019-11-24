@@ -136,6 +136,16 @@ this regard my work can be devided into two parts:  &lt;/div&gt;
 
 &lt;hr /&gt;
 
+&lt;h3 id=&#34;surena-iv-humanoid-robot&#34;&gt;SURENA IV Humanoid Robot&lt;/h3&gt;
+
+&lt;h4 id=&#34;2017-present&#34;&gt;2017 – Present&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;  We have started to develop  SURENA 4 humanoid robot and  I was the head of dynamic and control group of this project during 2107-2018. This robot will be unveiled in next months(Videos and Information will be updated soon).&lt;/div&gt;
+
+&lt;hr /&gt;
+
 &lt;h3 id=&#34;surena-iii-humanoid-robot&#34;&gt;SURENA III Humanoid Robot&lt;/h3&gt;
 
 &lt;h4 id=&#34;2016-2017&#34;&gt;2016 – 2017&lt;/h4&gt;
@@ -182,20 +192,6 @@ during past one year on Mini-SURENA robot. The following videos shows a push rec
   &lt;iframe src=&#34;//www.youtube.com/embed/U71STMsbwo8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;surena-4-humanoid-robot&#34;&gt;SURENA 4 Humanoid Robot&lt;/h3&gt;
-
-&lt;h4 id=&#34;2017-present&#34;&gt;2017 – Present&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;div style=&#34;text-align: justify&#34;&gt;  We have started to develop  SURENA 4 humanoid robot and  I’m the leader of dynamic and control group of this project. The main goal of this project is developing a human-inspired humanoid robot. Now, the design and fabrication process of SURENA 4 humanoid robot is finished and we have started to
-test the actuators(harmonic drive+motor) that our motors are from MAXON company and also the Robo-Drive company. We have used Epos 4 motion controllers as a low-level controller I have selected the actuators of SURENA 4 humanoid robot based on dynamic simulation of walking and finding the torque and velocity of joints. Selecting the appropriate actuator for this kind of robots is so crucial. For example selecting a over-designed actuator will increase the weight of robot and challenges of dynamic balancing of robot will increase drastically.
-
-I am continuing the research this days, developing and implementing a human-like motion planning algorithm for SURENA 4 robot. The locomotion planning methods for conventional humanoid robots have two main drawbacks that the generated locomotion patterns  by conventional methods are quasi-static and they walk with bent-knee(in order to avoiding singularity). However in this work, we have solved inverse kinematic problem based on a singularity robust algorithm, Also, we have proposed
-a novel center of mass motion planner for generating human like walking pattern generation.&lt;/div&gt;
 
 &lt;hr /&gt;
 </description>
