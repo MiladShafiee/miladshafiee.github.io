@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Milad Shafiee</title>
@@ -7,19 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
-    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://miladshafiee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>HLLP</title>
-      <link>https://miladshafiee.github.io/tags/hllp/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0200</pubDate>
-      
-      <guid>https://miladshafiee.github.io/tags/hllp/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
@@ -27,29 +16,30 @@
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://miladshafiee.github.io/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>master</title>
-      <link>https://miladshafiee.github.io/tags/master/</link>
-      <pubDate>Thu, 27 Oct 2016 00:00:00 +0200</pubDate>
+      <title>Bachelor</title>
+      <link>https://miladshafiee.github.io/tags/bachelor/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0430</pubDate>
       
-      <guid>https://miladshafiee.github.io/tags/master/</guid>
+      <guid>https://miladshafiee.github.io/tags/bachelor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SURENA</title>
-      <link>https://miladshafiee.github.io/tags/surena/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0200</pubDate>
+      <title>Hllp</title>
+      <link>https://miladshafiee.github.io/tags/hllp/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0430</pubDate>
       
-      <guid>https://miladshafiee.github.io/tags/surena/</guid>
+      <guid>https://miladshafiee.github.io/tags/hllp/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://miladshafiee.github.io/tags/hugo/</link>
       <pubDate>Wed, 20 Apr 2016 12:00:00 +0000</pubDate>
       
@@ -58,20 +48,29 @@
     </item>
     
     <item>
-      <title>bachelor</title>
-      <link>https://miladshafiee.github.io/tags/bachelor/</link>
-      <pubDate>Mon, 27 Apr 2015 00:00:00 +0200</pubDate>
-      
-      <guid>https://miladshafiee.github.io/tags/bachelor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jekyll</title>
+      <title>Jekyll</title>
       <link>https://miladshafiee.github.io/tags/jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://miladshafiee.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Master</title>
+      <link>https://miladshafiee.github.io/tags/master/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0330</pubDate>
+      
+      <guid>https://miladshafiee.github.io/tags/master/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Surena</title>
+      <link>https://miladshafiee.github.io/tags/surena/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0430</pubDate>
+      
+      <guid>https://miladshafiee.github.io/tags/surena/</guid>
       <description></description>
     </item>
     
