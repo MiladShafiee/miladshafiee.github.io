@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Milad Shafiee</title>
+    <link>https://miladshafiee.github.io/project/</link>
+    <description>Recent content in Projects on Milad Shafiee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Milad Shafiee</copyright>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Human-like locomotion planning </title>
+      <link>https://miladshafiee.github.io/project/hllp/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/hllp/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;human-like-locomotion-planning-and-control&#34;&gt;Human-like locomotion planning and control&lt;/h3&gt;
+
+&lt;h4 id=&#34;2017-present&#34;&gt;2017 – Present&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;  We have started to develop  SURENA 4 humanoid robot and  I’m the leader of dynamic and control group of this project. The main goal of this project is developing a human-inspired humanoid robot. 
+I am continuing the research this days, developing and implementing a human-like motion planning algorithm for SURENA 4 robot.&lt;/div&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;The locomotion planning methods for conventional humanoid robots have two main drawbacks that the generated locomotion patterns  by conventional methods are quasi-static and they walk with bent-knee(in order to avoiding singularity). 
+In this research a novel method for human-like walking pattern generation is proposed based on introducing spatially quantized dynamic(SQD) of divergent component of motion(DCM). In contrast to conventional DCM based motion planning that a equation of motion is discretized by a constant step time, in our method the DCM dynamic quantized by a constant unit length along the desired direction. To this end, first we design a kinematic pattern for walking based on human motion with stretched knee. Then we map this kinematic pattern into time space based on SQD of DCM. Using our scheme, a general and real time motion planner is designed which can be used for human like motion planning in different scenarios.
+Using the idea of time-varying DCM, our controller is capable of dealing with walking with larger step length that causes traversing bigger obstacles
+and fewer power consumption.&lt;/div&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;Now, I&#39;m adding an optimization-based balance recovery controller to proposed scheme that adaptate the step position and duration under external disturbances. The following video shows the simulation of this algorithm.&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/xvYkypaP9C0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Master Thesis</title>
+      <link>https://miladshafiee.github.io/project/master/</link>
+      <pubDate>Thu, 27 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/master/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;push-recovery-of-a-humanoid-robot-under-severe-external-disturbances&#34;&gt;Push recovery of a humanoid robot under severe external disturbances&lt;/h3&gt;
+
+&lt;h4 id=&#34;2015-2017&#34;&gt;2015 – 2017&lt;/h4&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;  I passed my master thesis under the supervision of &lt;a href=&#34;https://scholar.google.com/citations?user=Cz1X5e8AAAAJ&amp;hl=en&#34;&gt;Prof. Aghil Yousefi-Koma&lt;/a&gt; and my goal was to employ whole capability of a biped robot for balance recovery. In
+this regard my work can be devided into two parts:  &lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;I developed a human-inspired feedback controller for push recovery of Mini-SURENA humanoid robot&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;We deploy model predictive control and concept of Divergent Component of motion to developing a Push recovery Controller during walking and also in stance mode.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;part-1-human-inspired-feedback-controller-for-balance-recovery-of-surena-mini-humanoid-robot&#34;&gt;Part 1: Human-inspired feedback controller for balance recovery of SURENA Mini humanoid robot&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt; In this part of research, a combination of ankle and hip strategy is used for push recovery of a position-controlled humanoid robot. Ankle strategy and hip strategy are equivalent to Center of Pressure (CoP) and Centroidal Moment Pivot (CMP) regulation respectively. For controlling the CMP and CoP we need a torque-controlled robot, however most of the conventional humanoid robots are position controlled. In this regard, we present an efficient way for implementation of the hip and ankle strategies on a position controlled humanoid robot. We employ a feedback controller to compensate the capture point error. Using our scheme, a simple and practical push recovery controller is designed which can be implemented on the most of the conventional humanoid robots without the need for torque sensors. The following video shows verified through push recovery experiments on SURENA-Mini humanoid robot under severe pushes. The detail of this balance recovery controller is available in the following paper.&lt;/div&gt;
+
+&lt;p&gt;Related paper:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/pdf/1710.10598.pdf&#34; target=&#34;_blank&#34;&gt;Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Rehane Mirjailii, Hesam Maleki, Mojtaba Karimi, Push Recovery of a Position-Controlled Humanoid Robot Based on Capture Point Feedback Control , 2017 IEEE/RSJ  International Conference on Robotics and Mechatronics (ICROM 2017)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2pPhKCSmwwo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;part-2-robust-bipedal-locomotion-control-based-on-model-predictive-control-and-divergent-component-of-motion&#34;&gt;Part 2: Robust Bipedal Locomotion Control Based on Model Predictive Control and Divergent Component of Motion&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt; In this part, we employ a single MPC which uses a combination of Center of Pressure (CoP) manipulation, step adjustment, and Centroidal Moment Pivot (CMP) modulation to design a robust walking controller. The main contribution of our work is inclusion of angular momentum in DCM dynamic. Using our scheme, a general and robust walking controller is designed which can be implemented on robots with different control authorities, for walking on various environments, e.g. uneven terrains or surfaces with a very limited feasible area for stepping such as rocks. Following figure shows the result of balance recovery for walking on limited contact surfaces. The inner gray rectangular shows the contact surface and the light pink rectangular shows the foot of robot. In this scenario, a push with the magnitude of 250 N during 0.05 s in sagittal direction is exerted on the CoM of the robot at start of walking. The MPC saves the robot from falling by genration of angular momentum.&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/walk.png&#34; alt=&#34;This is an image|512x397,20%&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/angul.png&#34; alt=&#34;This is an image|512x397,20%&#34; /&gt;&lt;/p&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;In the standing mode push recovery scenario, a severe push is exerted on the CoM of the robot. As we expected, the large push throws the CP out of the support polygon, and the ZMP(CoP) cannot navigate it. Therefore, the angular momentum is generated by the MPC to move the CMP outside the support polygon for controlling the CP. &lt;/div&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt; In the second scenario, the robot stands on one leg, while the contact surface is shrunken to a line or a point. Two examples for this situation are standing on lumber and standing on rock. In this case, the CMP modulation recovers the robot from the disturbance, because the support polygon is too small and the ankle strategy is not helpful anymore.&lt;/div&gt;
+
+&lt;p&gt;The results of two mentioned simulation is available at following video:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/bDPafm-6CLk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Related papers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1702.08742.pdf&#34; target=&#34;_blank&#34;&gt;Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Robust Bipedal Papers - Locomotion Control Based on the Model Predictive Control and the Divergent Component of Motion, 2017 International Conference on Robotics and Automation(ICRA 2017)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1612.08034.pdf&#34; target=&#34;_blank&#34;&gt;Milad Shafiee-Ashtiani, Aghil Yousefi-Koma, Masoud Shariat-Panahi, Majid Khadiv, Push Recovery of a Humanoid Robot Based on Model Predictive Control and Capture Point, 2016 IEEE/RSJ International Conference on Robotics and Mechatronics (ICROM 2016)&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Surena humanoid robot Projects</title>
+      <link>https://miladshafiee.github.io/project/surena/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/surena/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;surena-iv-humanoid-robot&#34;&gt;SURENA IV Humanoid Robot&lt;/h3&gt;
+
+&lt;h4 id=&#34;2017-present&#34;&gt;2017 – Present&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;  We have started to develop  SURENA 4 humanoid robot and  I was the head of dynamic and control group of this project during 2107-2018. This robot will be unveiled in next months(Videos and Information will be updated soon).&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;surena-iii-humanoid-robot&#34;&gt;SURENA III Humanoid Robot&lt;/h3&gt;
+
+&lt;h4 id=&#34;2016-2017&#34;&gt;2016 – 2017&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;  SURENA III is the third generation of Iranian Humanoid robot and selected as one of the most advanced
+humanoid robots by the IEEE Spectrum magazine. This robot is fully actuated full-size humanoid robot.
+During the one year of working as a member of Dynamic and Control group of SURENA III, I had invloved in conducting numerous advanced algorithms for walking, stair, and slope ascending and descending. SURENA III has unveiled to the public 2 years ago.&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/mR5IThJslkY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;surena-mini-humanoid-robot&#34;&gt;SURENA Mini Humanoid Robot&lt;/h3&gt;
+
+&lt;h4 id=&#34;2016-2017-1&#34;&gt;2016 – 2017&lt;/h4&gt;
+
+&lt;hr /&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt; We started to develop a low-cost research platform
+for universities, that we call this Mini-SURENA humanoid robot. We built 4 prototypes and I was the key
+member of Dynamic and Control group of the Mini-SURENA humanoid robot. I conduct many experiments
+during past one year on Mini-SURENA robot. The following videos shows a push recovery controller performance that is developed by me and the video that Vice President for Science and Technology  of Iran tests the push recovery  controller in the public unveiling. &lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2pPhKCSmwwo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/tFH3fFcG814&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/U71STMsbwo8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Selected Undergraduate Projects</title>
+      <link>https://miladshafiee.github.io/project/bachelor/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://miladshafiee.github.io/project/bachelor/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;reducing-effects-of-joints-clearance-on-the-behavior-of-the-parallel-manipulators-a-part-of-bachelor-thesis&#34;&gt;Reducing effects of joints clearance on the behavior of the  parallel manipulators(A Part of Bachelor Thesis)&lt;/h3&gt;
+
+&lt;h4 id=&#34;2013-2015&#34;&gt;2013 – 2015&lt;/h4&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;  I passed my bachelor thesis under the supervision of &lt;a href=&#34;https://scholar.google.com/citations?user=sNiuzsAAAAAJ&amp;hl=en&#34;&gt;Prof.Daniali&lt;/a&gt; about the dynamic analysis of the mechanical system. As a part of my bachelor thesis, with collaboration with &lt;a href=&#34;https://scholar.google.com/citations?user=GmzO4EIAAAAJ&amp;hl=en&#34;&gt;Dr.Varedi&lt;/a&gt;, we analyzed the effect of clearance Joints on the performance of the parallel robot. Clearance imposes some uncontrollable degrees of freedom to a manipulator. Therefore, poor dynamic performance, low accuracy, reduction in components lifetime and generation of undesirable vibrations result in the impacts of mating parts in a clearance joint. In this study, the effects of clearance on the dynamics of a planar 3-RRR parallel manipulator are investigated. Then, an optimization algorithm for simultaneously kinematic and dynamic synthesis has been carried out to reduce these effects and improve the performance and the accuracy of the manipulator. The algorithm is based on changing the lengths and the mass distribution of the links in order to decrease the undesirable end effector acceleration that the clearance produces. A sample results is shown in following figure that shows how the proposed method decrease the undesirable acceleration of end effector. This researches led to publishing a paper with following title in the “Nonlinear Dynamics” Journal
+of the Springer publisher. &lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://link.springer.com/article/10.1007/s11071-016-2942-7&#34; target=&#34;_blank&#34;&gt;Varedi-Koulaei SM, Daniali HM, Farajtabar M, Fathi B, Shafiee-Ashtiani M. Reducing the undesirable effects of joints clearance on the behavior of the planar 3-RRR parallel manipulators. Nonlinear Dynamics. 2016 Oct 1;86(2):1007-22.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/clearance.png&#34; alt=&#34;This is an image|512x397,20%&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/3rrr.png&#34; alt=&#34;This is an image|512x397,20%&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;first-rank-in-the-2nd-autonomous-surface-vehicle-asv-competition&#34;&gt;First rank in The 2ND Autonomous Surface Vehicle (ASV) Competition&lt;/h3&gt;
+
+&lt;h4 id=&#34;sep-2011-mar-2013&#34;&gt;Sep 2011 – Mar 2013&lt;/h4&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt; Design and implementation of an autonomous boat in 2nd ASV (Autonomous Surface Vehicle) competition (Sharif University of Technology). 
+Our goal was to design and fabrication of a high-speed autonomous mini-boat. After 9 month of massive teamwork for conceptual and detail design, we reached a final design for implementation. Integrating a GPS with a Compass autonomous system of the boat accomplished, We ranked first in all of items of the competition including speed, maneuver, autonomous circle and autonomous spiral. My specific task in design process was hydrostatic and stability analysis with the goal of incrasing maneuverability. The following video shows how stable and Maneuverable this boat is! During fabrication process my task was bold making and also I involved in programming and implementation of autonomies algorithms. &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;summer-internship-at-tam-iran-khodro&#34;&gt;Summer Internship at TAM IRAN KHODRO&lt;/h3&gt;
+
+&lt;h4 id=&#34;june-sep-2014&#34;&gt;June-Sep 2014&lt;/h4&gt;
+
+&lt;div style=&#34;text-align: justify&#34;&gt;TAM with over a decade of continuous business presence and engagement with Iran’s major industrial companies is well known as a leading engineering (EPC) service company in the Automotive, Mine, Rail, Oil &amp; gas and power industries. 
+My work at Iran-Khodro Co. during my summer internship gave me a practical knowledge and insight into the field of Industrial Robotics and become more familiar with the industrial manipulators such as KUKA and ABB arc welding manipulators. &lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://miladshafiee.github.io/img/industrial.jpg&#34; alt=&#34;This is an image3|512x397,20%&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
