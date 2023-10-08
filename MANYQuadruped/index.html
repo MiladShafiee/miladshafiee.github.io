@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F28Q22D1LS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F28Q22D1LS');
+  </script>
+  <meta charset="utf-8">
+  <meta name="description" content="Learning a Single Locomotion Policy for Diverse Quadruped Robots">
+  <meta name="keywords" content="Locomotion, Quadruped, Reinforcement Learning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MANYQuadruped</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="./static/js/ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.min.js"></script>
+  <script src="./static/js/isInViewport.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <link rel="icon" href="./favicon.ico?">
+  
+</head>
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://miladshafiee.github.io/manyquadruped">
+        <span class="icon">
+            <i class="fas fa-home"></i>
+        </span>
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            Related Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://miladshafiee.github.io/">
+              DeepTransition
+            </a>
+            <a class="navbar-item" href="https://miladshafiee.github.io/puppeteer-and-marionette/index.html">
+              Puppeteer and Marionette
+            </a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </nav>
+
+  
+<section class="hero">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"> <i>ManyQuadruped: </i>  Learning a Single Locomotion Policy for Diverse Quadruped Robots</h1>
+          <div class="is-size-4 publication-authors">
+            <span class="author-block">
+              <a href="https://miladshafiee.github.io/">Milad Shafiee</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://people.epfl.ch/guillaume.bellegarda/">Guillaume Bellegarda</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.epfl.ch/labs/biorob/people/ijspeert/">Auke Ijspeert</a>
+              <br><br>
+              <img src="./resources/epfl.png" width="60%"></img>
+              <!-- <span class="brmod"><b>ICRA 2024 Submission</b></span> -->
+            </span>
+          </div>
+          
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./resources/ManyQuadruped.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- arXiv Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/Cey0L7nJAwo"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+
+              
+
+
+              <!-- code Link. -->
+              <span class="link-block">
+                <a href="" class="external-link button is-normal is-rounded is-dark" target="_blank">
+                  <span class="icon">
+                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+                  </span>
+                  <span>Code (Coming Soon)</span>
+                </a>
+              </span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper video. -->
+
+<section class="section" style="padding-bottom: 0">
+  <div class="container">
+    <div id="method_video" class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds no-bottom-padding">
+        <!-- <video controls src="./camera-ready-video-v2-compressed.mp4" style="border: 1px solid #bbb; border-radius: 10px; width: 100%;"> -->
+          <iframe height="500" src="https://youtu.be/Cey0L7nJAwo" title="YouTube video player" frameborder="0" style="border: 1px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+
+  <div class="container">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-two-thirds">
+        <h2 class="title is-2">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+Learning a locomotion policy for quadruped robots has traditionally been constrained to a specific robot morphology, mass, and size. The learning process must usually be repeated for every new robot, where hyperparameters and reward function weights must be re-tuned to maximize performance for each new system. Alternatively, attempting to train a single policy to accommodate different robot sizes, while maintaining the same degrees of freedom (DoF) and morphology, requires either complex learning frameworks, or mass, inertia, and dimension randomization, which leads to
+prolonged training periods. In our study, we show that drawing inspiration from animal motor control allows us to effectively train a single locomotion policy capable of controlling a diverse range of quadruped robots. The robot differences encompass: a variable number of DoFs, (i.e. 12 or 16 joints), three distinct morphologies, a broad mass range spanning from 2 kg to 200 kg, and nominal standing heights ranging from 16 cm to 100 cm. Our policy modulates a representation of the Central Pattern Generator (CPG) in the spinal cord, effectively coordinating both frequencies and amplitudes of the CPG to produce rhythmic output (Rhythm Generation), which is then mapped to a Pattern Formation (PF) layer. Across different robots, the only varying component is the PF layer, which adjusts the scaling parameters for the stride height and length. Subsequently, we evaluate the sim-to-real transfer by testing the single policy on both the Unitree Go1 and A1 robots. Remarkably, we observe robust performance, even when adding a 15 kg load, equivalent to 125% of the A1 robot’s nominal mass.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- <br/> -->
+  <!-- <br/>
+  <br/> -->
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container content">
+    <h2 class="titile">BibTeX</h2>
+    <pre><code>
+@article{ShafieeManyQuadruped,
+title={<i>ManyQuadruped: </i>Learning a Single Locomotion Policy for Diverse Quadruped Robots},
+author={Shafiee, Milad and Bellegarda, Guillaume and Auke, Ijspeert},
+journal={arXiv preprint arXiv:},
+year={2023}
+}
+</code></pre>
+  </div>
+</section>
+
+
+</body>
+
+<script>
+  var mainLoopId = setInterval(function(){
+        $('video').not('#teaser').each(function(){
+      if ($(this).is(":in-viewport")) {
+          $(this)[0].play();
+      } else {
+          $(this)[0].pause();
+      }
+      })
+    },200);
+</script>
+
+</html>
